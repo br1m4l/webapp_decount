@@ -3,13 +3,6 @@
     src: url('fonts/PixelifySans-VariableFont_wght.ttf') format('TrueType');
 }
 
-@media screen and (max-width: 749px) {
-    .element-avec-degrade {
-        background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    }
-  }
-
-
 body {
     font-family: "Pixel", Arial, sans-serif;
     color: #ffffff;
@@ -19,8 +12,6 @@ body {
     align-items: center;
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     user-select: none;
 }
