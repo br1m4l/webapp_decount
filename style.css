@@ -5,9 +5,10 @@
 
 @media screen and (max-width: 749px) {
     .element-avec-degrade {
-      background-attachment: local !important;
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     }
   }
+
 
 body {
     font-family: "Pixel", Arial, sans-serif;
